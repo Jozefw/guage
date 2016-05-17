@@ -2,7 +2,7 @@ $(document).ready(function() {
 
     setInterval(function() {
         $("#needle").each(function() {
-            var a = Math.floor(Math.random() * 180 + 1);
+            var a = Math.floor(Math.random() * 270 + 1);
             if (a <= 60) {
                 $("#bkg").css('background-color', 'green');
             }
@@ -18,5 +18,6 @@ $(document).ready(function() {
 
 
 
-    }, 4000);
+
+    }, 9);
 });
