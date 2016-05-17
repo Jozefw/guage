@@ -19,5 +19,5 @@ $(document).ready(function() {
 
 
 
-    }, 950);
+    }, 9);
 });
