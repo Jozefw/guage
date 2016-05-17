@@ -8,12 +8,15 @@
 	display: inline-block;
 }
 
-#needle{
-	display: inline-block;
+
+#needle {
+    display: inline-block;
     position: absolute;
-    top: 65px;
-    left: 190px;
+    top: 175px;
+    left: 80px;
     height: 295px;
+    transform-origin: 75% 15%;
+
 }
 
 #bkg{
@@ -21,7 +24,7 @@
     position: absolute;
     top: 65px;
     left: 72px;
-    background-color: red;
+    background-color: white;
     width: 300px;
     opacity: .2;
     border-radius: 500px;
