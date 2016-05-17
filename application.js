@@ -12,7 +12,6 @@ $(document).ready(function() {
 
             } else {$('#bkg').css('background-color','red')}
 
-
             // $(this).css(
             //     'transform', 'rotate(' + a + 'deg)');
         	$('#needle').animate({borderSpacing: a},{
