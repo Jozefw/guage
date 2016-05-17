@@ -15,7 +15,7 @@ $(document).ready(function() {
 
             // $(this).css(
             //     'transform', 'rotate(' + a + 'deg)');
-        	$(this).animate({borderSpacing: 90},{
+        	$('#needle').animate({borderSpacing: a},{
         		step: function(now,fx){
         			$(this).css('transform','rotate('+now+'deg)');
         		},
@@ -26,5 +26,5 @@ $(document).ready(function() {
 
 
 
-    }, 1000);
+    }, 4000);
 });

@@ -8,7 +8,6 @@
 	display: inline-block;
 }
 
-
 #needle {
     display: inline-block;
     position: absolute;
@@ -17,6 +16,7 @@
     height: 295px;
     transform-origin: 75% 15%;
     border-spacing: 0;
+    text-indent: 1px;
 }
 
 #bkg{
